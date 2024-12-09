@@ -1,23 +1,17 @@
-import React from "react";
+import React, {useState} from "react";
 import './TodoList.css';
 
-function TodoList() {
+export default function TodoList() {
+    const initialTodos = ["Learn React", "Be Awesome!"];
+    const [todos, setTodos] = useState(initialTodos);
+
     return (
-        <div className="todo-list">
-            <hr className="separator" />
-            <h2>Todos</h2>
-            <ul>
+        <ul>
+            {todos.map((todo) => (
                 <li>
-                    <input type="checkbox" id="todo-1" />
-                    <label htmlFor="todo-1">Learn React</label>
+                    <input type="checkbox" /> {todo}
                 </li>
-                <li>
-                    <input type="checkbox" id="todo-2" />
-                    <label htmlFor="todo-2">Be Awesome!</label>
-                </li>
-            </ul>
-        </div>
+            ))}
+        </ul>
     );
 }
-
-export default TodoList;
