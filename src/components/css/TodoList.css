@@ -1,0 +1,6 @@
+.todo-ul {
+    padding: 10px;
+    max-width: 350px;
+    list-style-type: none;
+    gap: 20px;
+}

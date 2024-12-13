@@ -1,0 +1,33 @@
+.form-container {
+    border-bottom: 1px solid #8AB4F8;
+    margin-left: 20px;
+    width: 400px;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    margin: 20px;
+    padding: 4px 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button-add {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 4px 8px;
+    color: white;
+    background-color: #00A896;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.button-add:hover {
+    background-color: #34D399;
+    color: #001524;
+}

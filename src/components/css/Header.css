@@ -1,0 +1,13 @@
+.header {
+    text-align: left;
+    padding: 20px;
+    border-bottom: 1px solid #8AB4F8;
+    background-color: #001524;
+}
+
+.header-title {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 40px;
+    color: #EAB308;
+}
