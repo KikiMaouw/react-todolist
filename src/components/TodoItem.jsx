@@ -20,9 +20,7 @@ const TodoItem = ({ todo, toggleTodo, deleteTodo }) => {
             >
                 {todo.text}
             </span>
-            <button className="button-delete" onClick={() => deleteTodo(todo.id)}>
-                Delete
-            </button>
+
         </li>
     );
 };
