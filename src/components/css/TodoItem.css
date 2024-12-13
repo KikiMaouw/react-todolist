@@ -3,9 +3,8 @@ li {
     justify-content: space-between;
     align-items: center;
     color: #8AB4F8;
-    background: #001524;
+    background: #2d2d2d;
     padding: 10px 20px;
-    margin-left: 20px;
     transition: background-color 0.3s ease;
 }
 

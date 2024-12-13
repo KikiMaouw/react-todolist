@@ -2,12 +2,11 @@
     text-align: left;
     padding: 20px;
     border-bottom: 1px solid #8AB4F8;
-    background-color: #001524;
+    background-color: #2d2d2d;
 }
 
 .header-title {
     margin-bottom: 20px;
-    margin-left: 20px;
     font-size: 40px;
     color: #EAB308;
 }
