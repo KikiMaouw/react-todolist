@@ -43,9 +43,16 @@ button:hover {
     background-color: #5bc0de;
 }
 
+.todo-item.completed .todo-text {
+    text-decoration: line-through;
+}
+
 .todo-item.completed {
     background-color: #5cb85c;
-    text-decoration: line-through;
+}
+
+.todo-item.completed button {
+    text-decoration: none;
 }
 
 .button-delete {
